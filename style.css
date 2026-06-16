@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/1453961292812648550/151621538251024239/Story_para_instagram_loja_infantil_frase_colorida__20260615_194533_0001.png?ex=6a31d51d&is=6a306bf2&hm=eac0daff5a90110feb3be34951ddac8e0c949f7c4e7a69049abd398fa5230c4e&");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #FE747D;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.descricao {
+    color: #475569;
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.botao-link {
+    padding: 16px;
+    background-color: white;
+    color: #1e293b;
+    text-decoration: none;
+    border: 1.6px solid #fbf881;
+    border-radius: 12px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.botao-link:hover {
+    background-color: #2563eb;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
